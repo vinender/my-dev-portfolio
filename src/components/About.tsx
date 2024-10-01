@@ -1,4 +1,4 @@
-import { CheckBadgeIcon } from '@heroicons/react/20/solid';
+// import { CheckBadgeIcon } from '@heroicons/react/20/solid';
 import { MenuIcon, XIcon } from '@heroicons/react/solid'; // Corrected import path for version 1.x
 export default function About() {
   return (
@@ -39,8 +39,8 @@ export default function About() {
           <div className="mt-12 lg:mt-0">
             <div className="flex justify-center">
               <img
-                className="h-64 w-64 rounded-full"
-                src="/images/profile-picture.jpg"
+                className="h-64 w-64 object-contain rounded-full"
+                src="/dp.jpg"
                 alt="Profile picture"
               />
             </div>
