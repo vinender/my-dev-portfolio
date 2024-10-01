@@ -8,12 +8,28 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        'gradient': 'gradient 15s ease infinite',
+      },
+      keyframes: {
+        'gradient': {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center'
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center'
+          },
+        },
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
   },
+  variants: {},
   plugins: [],
 };
 export default config;
