@@ -10,7 +10,7 @@ export default function About() {
               About Me
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-500 dark:text-gray-300">
-              I'm a passionate MERN stack developer with 5+ years of experience
+              I'm a passionate MERN stack developer with 3.4+ years of experience
               in building responsive and scalable web applications. My expertise
               lies in JavaScript, React, Node.js, and MongoDB. I love solving
               complex problems and creating user-friendly interfaces.
@@ -22,7 +22,7 @@ export default function About() {
                   Bachelor's in Computer Science
                 </p>
               </div>
-              <div className="mt-6 flex">
+              {/* <div className="mt-6 flex">
                 <MenuIcon className="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" />
                 <p className="ml-3 text-base text-gray-500 dark:text-gray-300">
                   AWS Certified Developer
@@ -33,7 +33,7 @@ export default function About() {
                 <p className="ml-3 text-base text-gray-500 dark:text-gray-300">
                   MongoDB Certified Developer
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="mt-12 lg:mt-0">
