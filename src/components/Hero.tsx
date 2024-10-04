@@ -1,8 +1,7 @@
 // components/Hero.tsx
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaCoffee } from 'react-icons/fa';
-import CoffeeCup from './CoffeeCup';
+ 
 
 const taglines = [
   "Full-stack MERN developer, turning coffee into code.",
@@ -79,7 +78,7 @@ export default function Hero() {
         </motion.h1>
 
         {/* Subheading with Animated Taglines */}
-        <span className="mr-2 mb-4 text-2xl md:text-8xl font-bold text-white">I'm </span>
+        <span className="mr-2 mb-4 text-2xl md:text-8xl font-bold text-white">{`I'm`} </span>
 
         <motion.div
           className="text-2xl md:text-3xl font-semibold text-white mb-12"
