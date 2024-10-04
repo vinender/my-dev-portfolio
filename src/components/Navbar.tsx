@@ -3,8 +3,7 @@
 import { useState } from 'react';
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/solid'; // Ensure correct path based on your Heroicons version
-import ThemeToggle from './ThemeToggle';
-
+ 
 const navigation = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
@@ -14,7 +13,7 @@ const navigation = [
 ];
 
 export default function Navbar() {
-  const [searchQuery, setSearchQuery] = useState('');
+  // const [searchQuery, setSearchQuery] = useState('');
 
   return (
     <Disclosure
