@@ -149,7 +149,7 @@ export default function Contact() {
               </form>
               {isSubmitted && (
                 <div className="mt-6 text-green-600 dark:text-green-400">
-                  Thank you for your message. I'll get back to you soon!
+                  {`Thank you for your message. I'll get back to you soon!`}
                 </div>
               )}
             </div>
