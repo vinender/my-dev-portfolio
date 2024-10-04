@@ -1,6 +1,6 @@
 // Navbar.tsx
 
-import { useState } from 'react';
+// import { useState } from 'react';
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/solid'; // Ensure correct path based on your Heroicons version
  

@@ -1,4 +1,4 @@
-import { MenuIcon } from "@heroicons/react/solid";
+// import { MenuIcon } from "@heroicons/react/solid";
 
 // components/About.tsx
 export default function About() {
