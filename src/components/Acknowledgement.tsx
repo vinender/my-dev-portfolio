@@ -75,7 +75,7 @@ export default function AIAcknowledgment() {
         
         {/* Optional: Add a playful note */}
         <p className="mt-6 text-center text-gray-600 dark:text-gray-400">
-          Without these AI buddies, I'd still be typing `console.log` all day!
+        {`  Without these AI buddies, I'd still be typing console.log all day!`}
         </p>
       </div>
     </div>

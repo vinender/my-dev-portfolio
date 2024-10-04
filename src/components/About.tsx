@@ -11,10 +11,10 @@ export default function About() {
               About Me
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-500 dark:text-gray-300">
-              I'm a passionate MERN stack developer with 3.4+ years of experience
+             {` I'm a passionate MERN stack developer with 3.4+ years of experience
               in building responsive and scalable web applications. My expertise
               lies in JavaScript, React, Node.js, and MongoDB. I love solving
-              complex problems and creating user-friendly interfaces.
+              complex problems and creating user-friendly interfaces.`}
             </p>
             <div className="mt-6">
               {/* <div className="flex">
