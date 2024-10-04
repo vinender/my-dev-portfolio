@@ -1,18 +1,38 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+
 const taglines = [
-  'Full-Stack MERN Developer',
-  'Building Responsive Web Applications',
-  'Passionate About JavaScript',
+  "Full-stack MERN developer, turning coffee into code.",
+  "Builder of apps, breaker of stereotypes—funny dev included.",
+  "Full-stack developer, half-sane human.",
+  "Debugging enthusiast and bug-squashing master.",
+  "Web developer who makes websites actually work... most of the time.",
+  "JavaScript expert (I promise I won't `var` anymore).",
+  "Coding pro who types fast and breaks things faster.",
+  "Developer who codes, you refresh, it breaks, we repeat.",
+  "One who knows one does not simply write bug-free code.",
+  "Dev who'd be rich if paid for every bug fixed, but here we are.",
+  "Skipping the jargon, using generative AI to build and ship faster than anyone.",
+  "Using generative AI to skip the boring parts and ship great code faster.",
+  "Shipping projects at lightning speed, thanks to my generative AI sidekick.",
+  "Not just coding—partnering with AI to get things done faster and better.",
 ];
+
+
 
 const gradients = [
   'from-blue-600 via-yellow-800 to-orange-800',
   'from-green-600 via-teal-800 to-cyan-800',
   'from-yellow-600 via-orange-800 to-red-800',
+  'from-purple-600 via-pink-800 to-red-800',
+  'from-red-600 via-yellow-800 to-orange-800',
+  'from-green-600 via-lime-800 to-yellow-800',
+  'from-indigo-600 via-blue-800 to-purple-800',
+  'from-gray-600 via-blue-800 to-teal-800',
+  'from-pink-600 via-purple-800 to-indigo-800',
+  'from-teal-600 via-cyan-800 to-blue-800',
 ];
-
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -43,6 +63,7 @@ export default function Hero() {
             
           </span>
         </motion.h1>
+        <span className="mr-2 text-2xl md:text-8xl font-bold text-white">I'm </span>
 
         <motion.div
           className="text-2xl md:text-4xl font-bold text-white mb-12"
@@ -50,7 +71,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          <span className="mr-2">I'm a</span>
+          
           <AnimatePresence mode="wait">
             <motion.span
               key={currentIndex}

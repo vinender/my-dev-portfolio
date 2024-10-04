@@ -1,3 +1,4 @@
+// pages/index.tsx
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
@@ -9,7 +10,7 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-200">
       <Head>
         <title>Your Name - MERN Stack Developer</title>
         <meta name="description" content="MERN Stack Developer Portfolio" />

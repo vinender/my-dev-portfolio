@@ -1,5 +1,6 @@
-// import { CheckBadgeIcon } from '@heroicons/react/20/solid';
-import { MenuIcon, XIcon } from '@heroicons/react/solid'; // Corrected import path for version 1.x
+import { MenuIcon } from "@heroicons/react/solid";
+
+// components/About.tsx
 export default function About() {
   return (
     <div className="bg-white dark:bg-gray-800">
@@ -16,24 +17,13 @@ export default function About() {
               complex problems and creating user-friendly interfaces.
             </p>
             <div className="mt-6">
-              <div className="flex">
+              {/* <div className="flex">
                 <MenuIcon className="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" />
                 <p className="ml-3 text-base text-gray-500 dark:text-gray-300">
                   Bachelor's in Computer Science
                 </p>
-              </div>
-              {/* <div className="mt-6 flex">
-                <MenuIcon className="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" />
-                <p className="ml-3 text-base text-gray-500 dark:text-gray-300">
-                  AWS Certified Developer
-                </p>
-              </div>
-              <div className="mt-6 flex">
-                <MenuIcon className="flex-shrink-0 h-6 w-6 text-green-500" aria-hidden="true" />
-                <p className="ml-3 text-base text-gray-500 dark:text-gray-300">
-                  MongoDB Certified Developer
-                </p>
               </div> */}
+              {/* Additional items can be uncommented and used similarly */}
             </div>
           </div>
           <div className="mt-12 lg:mt-0">

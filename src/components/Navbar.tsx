@@ -27,13 +27,13 @@ export default function Navbar() {
             <div className="flex justify-between h-16">
               {/* Left side - Logo and navigation links */}
               <div className="flex">
-                <div className="flex-shrink-0 flex items-center">
+                {/* <div className="flex-shrink-0 flex items-center">
                   <img
                     className="h-8 w-auto"
                     src="/images/logo.png"
                     alt="Logo"
                   />
-                </div>
+                </div> */}
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {navigation.map((item) => (
                     <a
@@ -50,17 +50,17 @@ export default function Navbar() {
               {/* Middle - Search input */}
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <input
+                  {/* <input
                     type="text"
                     placeholder="Search projects..."
                     className="border border-gray-300 dark:border-gray-600 rounded-md px-3 py-2 text-sm bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                  />
+                  /> */}
                 </div>
-                <div className="ml-3">
+                {/* <div className="ml-3">
                   <ThemeToggle />
-                </div>
+                </div> */}
               </div>
               
               {/* Right side - Mobile menu button */}
