@@ -13,28 +13,28 @@ interface Project {
 const projects: Project[] = [
   {
     title: 'Anon Message',
-    description: 'A full-stack e-commerce platform built with MERN stack.',
+    description: 'A full-stack Anonymous message sharing platform built with MERN stack.',
     image: '/images/project1.jpg',
     technologies: ['MongoDB', 'Express', 'Next.js', 'Node.js'],
-    github: 'https://github.com/yourusername/ecommerce-platform',
+    github: 'https://github.com/vinender/anon-message',
     demo: 'https://anon-message-six.vercel.app/',
   },
-  {
-    title: 'Zeeky',
-    description: 'A full-stack e-commerce platform built with MERN stack.',
-    image: '/images/project1.jpg',
-    technologies: ['MongoDB', 'Express', 'Next.js', 'Node.js'],
-    github: 'https://github.com/yourusername/ecommerce-platform',
-    demo: 'https://anon-message-six.vercel.app/',
-  },
-  {
-    title: 'Anon Message',
-    description: 'A full-stack e-commerce platform built with MERN stack.',
-    image: '/images/project1.jpg',
-    technologies: ['MongoDB', 'Express', 'Next.js', 'Node.js'],
-    github: 'https://github.com/yourusername/ecommerce-platform',
-    demo: 'https://anon-message-six.vercel.app/',
-  },
+  // {
+  //   title: 'Zeeky',
+  //   description: 'A full-stack e-commerce platform built with MERN stack.',
+  //   image: '/images/project1.jpg',
+  //   technologies: ['MongoDB', 'Express', 'Next.js', 'Node.js'],
+  //   github: 'https://github.com/yourusername/ecommerce-platform',
+  //   demo: 'https://anon-message-six.vercel.app/',
+  // },
+  // {
+  //   title: 'Anon Message',
+  //   description: 'A full-stack e-commerce platform built with MERN stack.',
+  //   image: '/images/project1.jpg',
+  //   technologies: ['MongoDB', 'Express', 'Next.js', 'Node.js'],
+  //   github: 'https://github.com/yourusername/ecommerce-platform',
+  //   demo: 'https://anon-message-six.vercel.app/',
+  // },
 
   // Add more projects here
 ];
